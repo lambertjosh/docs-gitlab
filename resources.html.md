@@ -43,3 +43,7 @@ These are the default resource and IP requirements for installing the tile
 #### Notes:
 * The `file-server` instance count cannot be increased
 * The `gitlab-ee` instance count can be increased to scale out horizontally
+
+The amount of `gitlab-ee` instances depends on your usage pattern. 
+We recommend by starting with two instances for teams up to 100 people. 
+Please contact GitLab support if in doubt.
