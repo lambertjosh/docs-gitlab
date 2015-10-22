@@ -51,7 +51,7 @@ The following ports & ranges are used in this service:
 
 * Destination port 80 access to the GitLab VMs from the PCF Router
 * Destination port 22 access to the GitLab VMs from outside of the PCF Network
-* Destination port xx for NFS access
+* Destination port 2049 for NFS access
 
 ## Feedback
 
